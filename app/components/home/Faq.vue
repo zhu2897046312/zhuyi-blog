@@ -8,7 +8,7 @@ const { locale } = useI18n()
 const slug = computed(() => withLeadingSlash(String(route.params.slug)))
 const { data: faq } = await useAsyncData('faq-' + slug.value, async () => {
   const collection = ('faq_' + locale.value) as keyof Collections
-  return await queryCollection(collection).first() as Collections['faq_en'] | Collections['faq_fr']
+  return await queryCollection(collection).first() as Collections['faq_en'] | Collections['faq_fr'] | Collections['faq_zh']
 }, {
   watch: [locale],
 })

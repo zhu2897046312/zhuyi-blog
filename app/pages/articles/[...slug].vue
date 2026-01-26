@@ -10,7 +10,7 @@ const path = computed(() => withLeadingSlash(joinURL(locale.value, 'articles', .
 const collection = computed(() => `articles_${locale.value}` as keyof Collections)
 
 const { data: page } = await useAsyncData(path.value, async () =>
-  await queryCollection(collection.value).path(path.value).first() as Collections['articles_en'] | Collections['articles_fr'],
+  await queryCollection(collection.value).path(path.value).first() as Collections['articles_en'] | Collections['articles_fr'] | Collections['articles_zh'],
 )
 
 if (!page.value)

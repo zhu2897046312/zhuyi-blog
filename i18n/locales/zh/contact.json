@@ -1,0 +1,20 @@
+{
+  "title": "联系我",
+  "description": "让我们一起讨论您的想法、项目或其他任何话题",
+  "fullname": "姓名",
+  "email": "邮箱",
+  "phone": "电话",
+  "subject": "消息主题",
+  "message": "消息内容",
+  "submit": "发送",
+  "disabled": "您必须设置 Resend API 密钥",
+  "success": "您的消息已成功发送",
+  "error": "抱歉，发送消息时发生错误",
+  "budget": "预算",
+  "subject_types": {
+    "project": "讨论项目",
+    "bug": "报告错误",
+    "question": "提出问题",
+    "other": "其他"
+  }
+}

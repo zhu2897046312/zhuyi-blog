@@ -1,0 +1,23 @@
+{
+  "app_description": "专注于Vue.js、Nuxt.js的前端开发，拥有丰富的电商平台和移动端开发经验",
+  "copied_to_clipboard": "已复制到剪贴板",
+  "article_link_copied": "文章链接已复制到剪贴板",
+  "email_copied": "邮箱已复制到剪贴板",
+  "back_to_home": "返回首页",
+  "switch_french": "切换到法语",
+  "switch_english": "切换到英语",
+  "switch_chinese": "切换到中文",
+  "search": "搜索命令",
+  "command": "可用命令",
+  "not_found": "未找到命令",
+  "see_more": "查看更多",
+  "soon": "即将推出",
+  "experiences": "工作经历",
+  "contact": "让我们一起工作",
+  "email": "复制邮箱",
+  "cv": "下载简历",
+  "meeting": "安排会议",
+  "available": "可接受新机会",
+  "unavailable": "目前正在处理其他项目",
+  "all_rights_reserved": "版权所有"
+}

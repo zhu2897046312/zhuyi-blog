@@ -1,0 +1,16 @@
+{
+  "title": "文章",
+  "description": "我的文章集合",
+  "empty": "暂无文章，请稍后再来查看！",
+  "not_found": "未找到文章",
+  "not_found_description": "我们找不到您要查找的文章。",
+  "back_link": "返回文章列表",
+  "readingTime": "分钟阅读",
+  "share": "分享文章",
+  "copy_link": "复制链接",
+  "search_article": "搜索文章",
+  "blog": "博客",
+  "unknown_author": "未知作者",
+  "show_search": "搜索",
+  "hide_search": "隐藏搜索"
+}
