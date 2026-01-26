@@ -11,7 +11,7 @@ export default defineAppConfig({
     picture: 'https://avatars.githubusercontent.com/u/71938701?v=4',
   },
   socials: {
-    github: 'https://github.com/HugoRCD',
+    github: 'https://github.com/zhu2897046312',
     twitter: 'https://twitter.com/HugoRCD__',
     linkedin: 'https://www.linkedin.com/in/hugo-richard-0801',
     instagram: 'https://www.instagram.com/hugo.rcd_',
