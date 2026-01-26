@@ -1,13 +1,13 @@
 export default defineAppConfig({
   global: {
-    meetingLink: 'https://cal.com/hugorcd/15min',
+    meetingLink: '',
     available: true,
   },
   profile: {
-    name: 'Hugo Richard',
-    job: 'Frontend Architect and Designer',
-    email: 'contact@hrcd.fr',
-    phone: '(+33) 6 21 56 22 18',
+    name: '朱屹',
+    job: 'Web前端工程师',
+    email: '2897046312@qq.com',
+    phone: '15811616496',
     picture: 'https://avatars.githubusercontent.com/u/71938701?v=4',
   },
   socials: {
@@ -18,8 +18,8 @@ export default defineAppConfig({
     spotify: 'https://open.spotify.com/user/yuvl0zpp3bpx4hne1ag7huten?si=df7ee2777c0c4fc4',
   },
   seo: {
-    title: 'Canvas a Nuxt portfolio template',
-    description: 'Canvas is a simple but beautiful portfolio template for designers and developers built with Nuxt and Tailwind CSS. Made with ❤️ by HugoRCD',
+    title: '朱屹 - Web前端工程师',
+    description: '专注于Vue.js、Nuxt.js的前端开发，拥有丰富的电商平台和移动端开发经验',
     url: 'https://canvas.hrcd.fr',
   },
   ui: {
