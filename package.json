@@ -10,10 +10,12 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "prepare": "husky install",
     "typecheck": "tsc --noEmit",
     "start": "node .output/server/index.mjs",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "lint-staged": "lint-staged"
   },
   "packageManager": "pnpm@10.28.1",
   "dependencies": {
@@ -35,9 +37,21 @@
     "vue-sonner": "2.0.9"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
     "@nuxt/eslint-config": "1.12.1",
     "automd": "0.4.2",
-    "eslint": "9.39.2"
+    "eslint": "9.39.2",
+    "husky": "^9.0.0",
+    "lint-staged": "^15.0.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "eslint --fix"
+    ],
+    "*.{ts,vue}": [
+      "bash -c 'pnpm typecheck'"
+    ]
   },
   "pnpm": {
     "onlyBuiltDependencies": [
